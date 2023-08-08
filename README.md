@@ -142,7 +142,7 @@ step 6:
 ```bash
 sudo systemctl enable logstash
 ```
-## Installing and Configuring Filebeat
+## Installing and Configuring Filebeat (Important)
 
 filebeat read the log files from any address that you want and send it to port 5044 that logstash is up on this port
 
@@ -150,7 +150,10 @@ step 1:
 ```bash
 sudo apt install filebeat
 ```
-## Note: the configuration of the filebeat is in this address : /etc/filebeat/filebeat.yml
+## Note: the configuration of the filebeat is in this address :
+```bash
+ /etc/filebeat/filebeat.yml
+```
 step2: edit configuration file (filebeat.yml)
 ```bash
 sudo nano /etc/filebeat/filebeat.yml
