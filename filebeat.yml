@@ -1,0 +1,18 @@
+filebeat.inputs:
+- type: log
+  enabled: true
+  paths:
+    - '/home/bizhan/logs/multipay.log'
+  fields_under_root: false
+  fields:
+    service_name: "multipay"
+- type: log
+  enabled: true
+  paths:
+    - '/home/bizhan/logs/inquiry.log'
+  fields_under_root: false
+  fields:
+    service_name: "inquiry"
+
+output.logstash:
+  hosts: ["localhost:5044"]
