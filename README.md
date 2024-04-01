@@ -29,6 +29,7 @@ sudo nano /etc/elasticsearch/elasticsearch.yml
 ```
 
 ## Note:
+
 Elasticsearch’s configuration file is in YAML format, which means that we need to maintain the indentation format. Be sure that you do not add any extra spaces as you edit this file.
 
 step 5: to install elastic search run this command
