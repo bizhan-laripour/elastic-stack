@@ -137,6 +137,7 @@ step 4: to ensure that your config file is correct run this command
 sudo -u logstash /usr/share/logstash/bin/logstash --path.settings /etc/logstash -t
 ```
 ## Note: 
+
 if the config file be Ok you will get the OK response
 
 step 5: start logstash
