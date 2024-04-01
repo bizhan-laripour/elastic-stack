@@ -90,6 +90,7 @@ step 1:Install Logstash with this command
 sudo apt install logstash
 ```
 ## Note : the place that you must put your logstash configuration files is here: 
+
 ```bash
 /etc/logstash/conf.d
 ```
