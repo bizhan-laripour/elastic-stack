@@ -201,6 +201,7 @@ sudo systemctl start filebeat
 sudo systemctl enable filebeat
 ```
 ## Conclusion
+
 ```python
 a brief and precision explanation about every parts of Elastic stack:
 
