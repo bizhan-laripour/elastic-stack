@@ -67,7 +67,6 @@ Output
 ```
 
 ## Installing and Configuring the Kibana Dashboard
-
 step 1: 
 ```bash
 sudo apt install kibana
