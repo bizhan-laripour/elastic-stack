@@ -2,7 +2,6 @@
 this is configuration of logstash and filebeat file
 
 ## installation and configuration of elasticsearch
-
 install elastic stack on ubuntu :
 
 step 1 : you must add elastic repository with this command
